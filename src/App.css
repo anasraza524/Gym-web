@@ -72,7 +72,11 @@ body{
   width: 729px;
   height: 742px;
 }
-
+@media screen and (max-width: 320px) {
+  .hero-banner-img {
+    opacity: 0.1;
+  }
+}
 .hero-banner-img{
   position: absolute;
   right: 10px;
