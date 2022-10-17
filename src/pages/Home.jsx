@@ -9,9 +9,10 @@ const Home = () => {
   return (
     <Box>
       
-    <SearchExercies/>
+    
     <Exercies/>
     <HeroBanner/>
+    <SearchExercies/>
     </Box>
   )
 }
