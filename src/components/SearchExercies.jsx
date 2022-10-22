@@ -64,7 +64,7 @@ onClick={handleSearch}
         </Button>
 </Box>
 <Box sx={{ position: 'relative', width: '100%', p: '20px' }}>
- {/* <HorizontalScrollbar/>  */}
+  <HorizontalScrollbar data={bodyParts}/> 
       </Box>
     </Stack>
   
